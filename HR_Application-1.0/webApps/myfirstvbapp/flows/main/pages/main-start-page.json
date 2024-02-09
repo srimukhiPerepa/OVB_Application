@@ -1,0 +1,36 @@
+{
+  "title": "main",
+  "description": "",
+  "variables": {},
+  "metadata": {},
+  "types": {},
+  "eventListeners": {
+    "toggleDrawer": {
+      "chains": [
+        {
+          "chain": "application:toggleDrawerHandler"
+        }
+      ]
+    }
+  },
+  "imports": {
+    "components": {
+      "oj-button": {
+        "path": "ojs/ojbutton"
+      },
+      "oj-input-date": {
+        "path": "ojs/ojdatetimepicker"
+      },
+      "oj-input-search": {
+        "path": "ojs/ojinputsearch"
+      }
+    }
+  },
+  "@dt": {
+    "chains": {
+      "navigateActionChain": {
+        "showInDiagram": "full"
+      }
+    }
+  }
+}
